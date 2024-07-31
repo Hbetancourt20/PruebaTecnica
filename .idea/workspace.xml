@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f94b4c45-56f8-44c5-8159-ca83bdebc381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/serenity.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsLoginOrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsRecruitmentOrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/NavigateRecruitment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/runners/CucumberTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

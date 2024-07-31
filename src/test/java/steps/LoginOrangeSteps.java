@@ -16,6 +16,13 @@ public class LoginOrangeSteps {
     WebDriver driver;
 
     Actor user;
+    String firstName = "Harold";
+     String middleName="David";
+     String lastName= "Betancourt";
+    String email="haroldavid2006@gmail.com";
+     String contact="3026645439";
+     String keywords;
+     String notes;
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
