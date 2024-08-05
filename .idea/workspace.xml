@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f94b4c45-56f8-44c5-8159-ca83bdebc381" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/AgendInterview.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/EnterDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/EnterTime.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/Wait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/task/WaitClickable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locators/LocatorsRecruitmentOrange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsRecruitmentOrange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/CucumberTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/CucumberTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-    </list>
+    <list default="true" id="f94b4c45-56f8-44c5-8159-ca83bdebc381" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
