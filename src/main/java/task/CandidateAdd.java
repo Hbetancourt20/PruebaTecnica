@@ -57,6 +57,6 @@ public class CandidateAdd implements Task{
 
 
     public static CandidateAdd withDetails(String firstName,String middleName, String lastName,String fileBrowser, String email, String contact,String keywords, String notes,WebDriver driver) {
-        return instrumented(CandidateAdd.class, firstName, lastName,middleName,fileBrowser, email, contact,keywords,notes,driver);
+        return instrumented(CandidateAdd.class, firstName, middleName,lastName,fileBrowser, email, contact,keywords,notes,driver);
     }
 }

@@ -9,10 +9,13 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.thucydides.core.annotations.Step;
+import net.serenitybdd.screenplay.questions.Text;
 
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
@@ -20,6 +23,7 @@ public class AgendInterview implements Task {
     private final WebDriver driver;
     private final String tittleEntrevista;
     private final String textInterviewer;
+
 
     public AgendInterview(WebDriver driver, String tittleEntrevista, String textInterviewer) {
         this.driver = driver;
@@ -63,8 +67,8 @@ public class AgendInterview implements Task {
                 Click.on(LocatorsValidationStatus.BUTTON_HIRE),
                 new WaitClickable(LocatorsValidationStatus.BUTTON_SAVE_HIRE, Duration.ofSeconds(10)),
                 Click.on(LocatorsValidationStatus.BUTTON_SAVE_HIRE),
+                new WaitClickable(LocatorsValidationStatus.TXT_STATUS, Duration.ofSeconds(10)),
                 Wait.milliseconds(5000)
-
         );
 
     }

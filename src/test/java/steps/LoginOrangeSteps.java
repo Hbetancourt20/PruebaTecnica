@@ -10,10 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import task.AgendInterview;
-import task.CandidateAdd;
-import task.Login;
-import task.NavigateRecruitment;
+import task.*;
 
 public class LoginOrangeSteps {
     @Managed
@@ -23,10 +20,7 @@ public class LoginOrangeSteps {
     String firstName = "Harold";
      String middleName="David";
      String lastName= "Betancourt";
-    String email="haroldavid2006@gmail.com";
-     String contact="3026645439";
-     String keywords;
-     String notes;
+
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
@@ -46,10 +40,6 @@ public class LoginOrangeSteps {
         user.attemptsTo(Login.withCredentials("Admin", "admin123"));
     }
 
-    public WebDriver intializedDriver(){
-        return this.driver;
-    }
-
     @Then("the user navigates to Recruitment page")
     public void the_user_navigates_to_Recruitment_page() {
         user.attemptsTo(NavigateRecruitment.page());
@@ -57,7 +47,7 @@ public class LoginOrangeSteps {
 
     @And("the user adds a new candidate")
     public void the_user_adds_a_new_candidate() {
-       user.attemptsTo(CandidateAdd.withDetails("Harold", "David","Betancourt", "C:\\Users\\harol\\Documents\\Prueba.txt","haroldavid2006@gmail.com","3026645439","Automatizacion - Serenity - Selenium", "Todo transcurre muy bien",intializedDriver()));
+       user.attemptsTo(CandidateAdd.withDetails(firstName, middleName,lastName, "C:\\Users\\harol\\Documents\\Prueba.txt","haroldavid2006@gmail.com","3026645439","Automatizacion - Serenity - Selenium", "Todo transcurre muy bien",intializedDriver()));
     }
     @And("the user agend interview")
     public void the_user_agend_interview() {
@@ -66,8 +56,11 @@ public class LoginOrangeSteps {
 
     @Then("the user should see the candidate is hired")
     public void the_user_should_see_the_candidate_is_hired() {
+        user.attemptsTo(ValidationStatus.page(intializedDriver(),firstName,middleName,lastName));
 
-
+    }
+    public WebDriver intializedDriver(){
+        return this.driver;
     }
 }
 

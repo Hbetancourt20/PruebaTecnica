@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f94b4c45-56f8-44c5-8159-ca83bdebc381" name="Changes" comment="" />
+    <list default="true" id="f94b4c45-56f8-44c5-8159-ca83bdebc381" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/task/ValidationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators/LocatorsValidationStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/AgendInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/AgendInterview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/task/CandidateAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginOrangeSteps.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
