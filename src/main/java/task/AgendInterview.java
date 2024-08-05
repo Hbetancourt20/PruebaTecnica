@@ -31,7 +31,7 @@ public class AgendInterview implements Task {
         this.textInterviewer = textInterviewer;
     }
 
-    @Step("Add a new candidate with first name {0}, last name {1}, and email {2}")
+    @Step("Agend Interview")
     public <T extends Actor> void performAs(T actor) {
 
         actor.attemptsTo(

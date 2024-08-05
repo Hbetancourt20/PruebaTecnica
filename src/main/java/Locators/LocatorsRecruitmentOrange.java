@@ -4,6 +4,7 @@ package Locators;
 import org.openqa.selenium.By;
 
 public class LocatorsRecruitmentOrange {
+    // Reto de cambios al repositorio
     public static final By LOCATOR_RECRUITMENT =By.xpath("//span[(text())='Recruitment']");
     public static final By BUTTON_ADD = By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--secondary']");
     public static final By INPUT_FIRSTNAME =By.xpath("//input[@name='firstName']");
