@@ -9,6 +9,8 @@ public class LocatorsRecruitmentOrange {
     public static final By INPUT_FIRSTNAME =By.xpath("//input[@name='firstName']");
     public static final By INPUT_MIDDLENAME = By.xpath("//input[@name='middleName']");
     public static final By INPUT_LASTNAME = By.xpath("//input[@name='lastName']");
+    public static final By SELECT_VACANCY_DIV = By.xpath("//div[@class='oxd-select-text-input']");
+    public static final By SELECT_VACANCY = By.xpath("//span[(text())='test']");
     public static final By FILE_BROWSER = By.xpath("//input[@type='file']");
     public static final By INPUT_EMAIL = By.xpath("//div[label[text()='Email']]/following-sibling::div/input");
     public static final By INPUT_CONTACT =By.xpath("//div[label[text()='Contact Number']]/following-sibling::div/input");

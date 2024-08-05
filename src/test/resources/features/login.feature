@@ -5,4 +5,5 @@ Feature: Login and add a new candidate
     When the user logs in with valid credentials
     Then the user navigates to Recruitment page
     And the user adds a new candidate
+    And the user agend interview
     Then  the user should see the candidate is hired
